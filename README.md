@@ -1,1 +1,1 @@
-A nextjs example in purescript using react-basic-hooks. Cobbled together from [https://github.com/jonasbuntinx/next-purescript-example](here) and [https://github.com/dmchoull/purescript-next-example](here).
+A nextjs example in purescript using react-basic-hooks. Cobbled together from [here](https://github.com/jonasbuntinx/next-purescript-example) and [here](https://github.com/dmchoull/purescript-next-example).
