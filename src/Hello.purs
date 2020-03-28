@@ -1,6 +1,7 @@
 module Hello where
 
 import Prelude
+
 import Effect (Effect)
 import React.Basic.DOM as R
 import React.Basic.Events (handler_)
@@ -22,10 +23,5 @@ mkCounter = do
         , children:
             [ R.text $ "Increment: " <> show counter ]
         }
-
-counterC:: Effect React.JSX
-counterC = do
-  c <- mkCounter
-  pure $ React.element c {}
 
 foreign import setDocumentTitle :: String -> Effect Unit

@@ -1,6 +1,8 @@
 
 import React from "react";
-import { greeting, counterC as Counter } from "../src/Hello.purs";
+import { greeting, mkCounter } from "../src/Hello.purs";
+
+const Counter = mkCounter();
 
 export default () => (
   <div>
